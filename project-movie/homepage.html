@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HomePage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .nav-item {
+            text-decoration: none;
+            color: white;
+        }
+        .bdiv {
+            height: 650px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ytimg.com/vi/16fF2Ao02YE/maxresdefault.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .adiv {
+            height: 650px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2021%2F08%2F24%2Fspider-man-no-way-home-6.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .cdiv {
+            height: 650px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://image.cnbcfm.com/api/v1/image/106980045-1637766874360-Encanto_Cropped_1.jpg?v=1637767028&w=1600&h=900');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .navbar {
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar" style="background-color: rgb(7, 7, 6);">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="homepage.html" class="nav-link">Home</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="movies.html" class="nav-link">Movies</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="movie ticket booking.html" class="nav-link">Buy Tickets</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="movie review form.html" class="nav-link">Movie Reviews</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="contact us.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid adiv">
+        <div style="margin-left: 100px;">
+            <br><br><br><br><br><br>
+            <h2 style="font-size: 60px;">Spider Man: No Way Home</h2>
+            <br>
+            <p style="font-size: 20px;">Action <br> Comedy <br> Science-Fiction <br> Adventure <br> Fantasy</p>
+            <a href="https://www.youtube.com/watch?v=rt-2cxAiPJk"><button id="trailer">Trailer</button></a>
+        </div>
+    </div>
+    <div class="container-fluid bdiv">
+        <div style="margin-left: 100px;">
+            <br><br><br><br><br><br>
+            <h2 style="font-size: 60px;">Home Alone</h2>
+            <br>
+            <p style="font-size: 20px;">Comedy <br> Children's Film <br> Adventure</p>
+            <a href="https://www.youtube.com/watch?v=2BkVf2voCr0"><button id="trailer">Trailer</button></a>
+        </div>
+    </div>
+    <div class="container-fluid cdiv">
+        <div style="margin-left: 100px;">
+            <br><br><br><br><br><br>
+            <h2 style="font-size: 60px;">Encanto</h2>
+            <br>
+            <p style="font-size: 20px;">Children's Film <br> Comedy <br> Adventure <br> Fantasy</p>
+            <a href="https://www.youtube.com/watch?v=CaimKeDcudo"><button id="trailer">Trailer</button></a>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(87, 87, 80); text-align: center; border: 1px solid white; height: 150px;">
+        <h3 style="margin-top: 35px; color: white;">To Buy Tickets</h3>
+        <a href="movie ticket booking.html">
+            <button>Click Here</button>
+        </a>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(87, 87, 80); text-align: center; border: 1px solid white; height: 150px;">
+        <h3 style="margin-top: 35px; color: white;">To Give Your Movie Reviews</h3>
+        <a href="movie review form.html">
+            <button>Click Here</button>
+        </a>
+    </div>
+</body>
+</html>
